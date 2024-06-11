@@ -1,0 +1,32 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: blue;
+}
+p{
+  color: white;
+  font-size: 60px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-weight: bold;
+}
+.mensaje p{
+  font-family: 'Comic Sans MS';
+  color: yellow;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.encabezado img{
+  margin: 30px;
+  max-height: 150px;
+  min-height: 75px;  
+}
+.pastel img{
+  margin: 30px;
+  height: 350px;
+}
